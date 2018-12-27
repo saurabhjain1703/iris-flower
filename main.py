@@ -15,9 +15,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 # upload dataset
-url= "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 names = ['sepal-length','sepal-width','petal-length','petal-width','class']
-dataset = pandas.read_csv(url,names=names)
+dataset = pandas.read_csv("D:/study/iris_flower.csv")
 
 # split-out validation dataset
 array=dataset.values
